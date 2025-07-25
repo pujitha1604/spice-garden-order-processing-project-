@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden Menu</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Spice_Garden_Restaurant.html">Home</a>
+            <a href="#">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Stories</a>
+            <a href="#">Contact</a>
+            <a href="order.html">Place Order</a>
+            <a href="reserve.html">
+            <button onclick="location.href='#'">Book a Table</button></a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="menu-section">
+            <h2>Filter by Category</h2>
+            
+            <select id="categoryFilter" onchange="filterMenu()">
+                <option value="All">All</option>
+                <option value="Starters">Starters</option>
+                <option value="Main Course">Main Course</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Desserts">Desserts</option>
+            </select>
+            <table id="menuTable">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Price (INR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Spice Garden</h3>
+                <p>Discover the exquisite flavors of our cuisine. Spice Garden is your destination for culinary excellence.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Open Hours</h3>
+                <p>Monday - Thursday: 9:00 AM - 12:00 AM</p>
+                <p>Friday - Saturday: 9:00 AM - 2:00 AM</p>
+                <p>Sunday: 9:00 AM - 2:00 AM</p>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Enter Email Address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <p class="footer-note">© 2023 All rights reserved | Spice Garden</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

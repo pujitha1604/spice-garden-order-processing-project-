@@ -1,0 +1,40 @@
+{
+  "order": [
+    {
+      "id": "d250",
+      "customerName": "pujitha",
+      "emailId": "pujithadhulipalla16@gmail.com",
+      "contactNumber": "",
+      "orderDate": "2024-09-17",
+      "address": "pujitha",
+      "items": [
+        {
+          "categoryName": "starters",
+          "itemName": "Dough Balls Doppio",
+          "itemPrice": 330,
+          "itemQuantity": 1,
+          "subtotal": 330
+        }
+      ],
+      "totalAmount": 330
+    },
+    {
+      "id": "bc86",
+      "customerName": "pujitha Dulipalla",
+      "emailId": "pujithadhulipalla16@gmail.com",
+      "contactNumber": "",
+      "orderDate": "2024-09-28",
+      "address": "pujitha Dulipalla",
+      "items": [
+        {
+          "categoryName": "Desserts",
+          "itemName": "Browine",
+          "itemPrice": 200,
+          "itemQuantity": 3,
+          "subtotal": 600
+        }
+      ],
+      "totalAmount": 600
+    }
+  ]
+}
